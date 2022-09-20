@@ -3,4 +3,4 @@ include: [_redirects]
 kramdown:
  syntax_highlighter: +nil+
  smart_quotes: "39,39,34,34"
-github_repo_url: hhttps://github.com/44Nifty/WebringMcGee
+github_repo_url: https://github.com/44Nifty/WebringMcGee
