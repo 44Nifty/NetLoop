@@ -1,6 +1,6 @@
-url: https://webring-mcgee.netlify.app # replace with your webring's URL, which should end in .netlify.app (no slash afterwards)
+url: https://netloop.netlify.app # replace with your webring's URL, which should end in .netlify.app (no slash afterwards)
 include: [_redirects]
 kramdown:
  syntax_highlighter: +nil+
  smart_quotes: "39,39,34,34"
-github_repo_url: https://github.com/44Nifty/WebringMcGee
+github_repo_url: https://github.com/44Nifty/netloop
