@@ -2,8 +2,7 @@
 title: Webring McGee
 layout: html
 ---
-<h1>Welcome to Webring McGee!</h1>
-<small>It's a working title.</small>
+<h1><img src={{'/netloopLogo.png'|relative_url}}></h1>
 <p>This is a webring! I can't guarantee it's any good! Do you want to <a href="{{'/join'|relative_url}}">join the webring?</a>
 
 <p>If the ring is broken, please <a href={{site.github_repo_url}}/issues/new>submit an error report on GitHub</a>.
@@ -15,7 +14,5 @@ layout: html
 {% for member in site.data.members %}
 <li><a href="{{member.url | xml_escape}}">{{member.name | xml_escape | newline_to_br}}</a>{% endfor %}
 </ul>
-<div style="background-color: black;">
-<img src={{'/websites-webringmcgee-1.png'|relative_url}}>/<img src={{'/websites-webringmcgee-2.png'|relative_url}}>/<img src={{'/websites-webringmcgee-3.png'|relative_url}}><br>
-<img src={{'/prev.png'|relative_url}}><img src={{'/webringmcgee.png'|relative_url}}><img src={{'/next.png'|relative_url}}>
-</div>
+<img src={{'/prev.png'|relative_url}}><img src={{'/netloopm.png'|relative_url}}><img src={{'/next.png'|relative_url}}><br>
+<img src={{'/websites-NetLoop.png'|relative_url}}>
