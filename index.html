@@ -14,6 +14,5 @@ layout: html
 {% for member in site.data.members %}
 <li><a href="{{member.url | xml_escape}}">{{member.name | xml_escape | newline_to_br}}</a>{% endfor %}
 </ul>
-<img src={{'/prev.png'|relative_url}}><img src={{'/netloopm.png'|relative_url}}><img src={{'/next.png'|relative_url}}><br>
-<small>This is not an actual connection to the webring. This is just an example of how your webring links could look.</small><br>
+<a href="https://netloop.netlify.app/netloop/next"><img src={{'/prev.png'|relative_url}}></a><img src={{'/netloopm.png'|relative_url}}><a href="https://netloop.netlify.app/netloop/next"><img src={{'/next.png'|relative_url}}></a><br>
 <img src={{'/websites-NetLoop.png'|relative_url}}>
