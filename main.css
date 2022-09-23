@@ -6,4 +6,5 @@ body {
 }
 ul, ol {
   width: 40vw;
+  margin: 0 auto;
 }
